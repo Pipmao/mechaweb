@@ -1,0 +1,117 @@
+@font-face {
+    font-family:satisfy ;
+    src: url(fonts/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: caveat;
+    src: url(fonts/Caveat-Medium.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-map{
+    background-color: rgb(67 138 168);
+
+    position: relative;
+    width: 100%;
+    min-height: 740px;
+
+}
+
+
+
+
+
+.contact-form{
+background-color: rgb(179 176 176);
+position: absolute;
+width: 80%;
+min-height: 500px;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border-radius: 13px;
+text-align: center;
+}
+
+
+input{
+    width: 60%;
+    min-height: 55px;
+    margin-top: 15px;
+    background-color: rgb(179 176 176);
+    border-radius: 12px;
+    border: 1px solid white;   
+    box-shadow: 0px 0px 8px 0px rgb(209, 174, 157);
+    color: #5c5c5c;
+    font-size: 26px;
+    font-family: caveat;
+
+}
+textarea{
+    width: 60%;
+    height: 300px;
+    margin-top: 15px;
+    background-color: rgb(179 176 176);
+    border-radius: 12px;
+    border: 1px solid white;   
+    box-shadow: 0px 0px 8px 0px rgb(209, 174, 157);
+    color: #3b3b3b;
+    font-size: 26px;
+    font-family: caveat;
+    
+}
+form{
+    text-align: center;
+}
+
+
+input::placeholder{
+    color: rgb(82, 81, 81);
+    font-family: caveat;
+    margin-left: 2px;
+    font-size: 35px;
+}
+
+textarea{
+    color: rgb(85, 84, 84);
+    font-family: caveat;
+    margin-left: 2px;
+    font-size: 35px;
+}
+
+
+
+.contact-form> h1{
+    margin-top: 20px;
+    font-family:satisfy ;
+
+}
+
+    
+
+
+.contact-button{
+    font-size: 31px;
+    background-color: rgb(44 94 115);
+    color: #ffffff;
+    font-family: satisfy;
+    height: 45px;
+    width: 170px;
+    margin: auto;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0px 0px 8px 0px rgb(180, 73, 230);
+}
+.contact-button:hover{
+    background-color: rgb(76, 3, 109);
+
+}
+.contact-form>a{
+    width: fit-content;
+}

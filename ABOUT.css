@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "Cookie";
+    src: url(fonts/Cookie-Regular.ttf);
+}
+@font-face {
+    font-family: "MateSC";
+    src: url(fonts/MateSC-Regular.ttf);
+}
+@font-face {
+    font-family: "dancingscript";
+    src: url(fonts/DancingScript-Medium.ttf);
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #b5b5b5;
+    
+}
+
+.about-container1{
+    background-color: #b5b5b5;
+    width: 100%;
+    height: 578.56px;
+    position: relative;
+    border-bottom: 1px solid #9c9999;
+    
+    
+}
+.about-company{
+    font-size: large;
+    color: #540707;
+    width: 50%;
+    height: 511.56px;
+    position: absolute;
+    background-color: #b5b5b5;
+    left: 0;
+    font-size: 26px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.about-info{
+    font-family: dancingscript;
+    color: #000000;
+    
+    
+    
+    
+    
+}
+h4{
+    font-family: Cookie;
+    font-size: 40px;
+}
+h4 > span {
+    color: rgb(35, 87, 156);
+}
+.about-info-p{
+    font-family: MateSC;
+    color:black;
+}
+
+
+
+.about-image > img{
+    width: 100%;
+}
+.about-image{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    
+}
+
+
+@media (max-width:1024px){
+
+    .about-company{
+        height: 50%;
+        width:100% ;
+        top:0;
+        position: absolute;
+        text-align: center;
+    }
+    .about-image{
+        
+        width:100% ;
+        bottom: 0;
+        position: absolute;
+
+    }
+    .about-container1{
+        height: 1090px;
+    }
+    .about-image > img{
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+}
+
+
+
+
+
+
+.about-container2{
+    width: 100%;
+    height: fit-content;
+}
+.about-benefits > *{
+    text-align: center;
+}
+
+.about-benefits{
+    width: 100%;
+    background-color: #b5b5b5;
+    height: 1622.56px;
+}
+.about-benefits >h1{
+    font-family: dancingscript;
+    color: #a24242;
+    margin-bottom: 25px;
+}
+.about-benefits >p{
+    
+    font-family: 'MateSC';
+    
+}
+.about-pararaph1{
+    font-size: larger;
+}
+.about-pararaph2{
+    font-size: larger;
+}
+.about-pararaph3{
+    font-size: larger;
+    margin-bottom: 25px;
+}
+
+.about-benefits-icon{
+    font-size: 100px;
+    color: #235c9f;
+}
+
+
+
+.benefit-1{
+    margin: auto;
+    margin-bottom: 60px;
+    width: 94%;
+    height: 440px;
+    background-color: rgb(178, 180, 182);
+    box-shadow: #2c2d2d 0px 0px 9px 6px;
+
+}
+.benefit-1 >h3{
+    margin-bottom: 30px;
+    font-size: 31px;
+    font-family: "dancingscript";
+    color: rgb(36 129 228);
+
+}
+.benefit-1 >p{
+    margin-bottom: 15px;
+    font-family: 'MateSC';
+    font-size: 22px;
+
+}
+.benefit1-icon{
+    width: 80px;
+    height:80px;
+}
+
+
+
+
+.benefit-2{
+    margin: auto;
+    margin-bottom: 60px;
+    width: 94%;
+    height: 335px;
+    background-color: rgb(178, 180, 182);
+    box-shadow: #2c2d2d 0px 0px 9px 6px;
+
+}
+.benefit-2 >h3{
+    margin-bottom: 30px;
+    font-size: 31px;
+    font-family: "dancingscript";
+    color: rgb(36 129 228);
+}
+.benefit-2 >p{
+    margin-bottom: 15px;
+    font-family: "MateSC";
+    font-size: 22px;
+
+}
+.benefit2-icon{
+    width: 80px;
+    height:80px;
+}
+
+
+
+
+
+.benefit-3{
+    margin: auto;
+    margin-bottom: 60px;
+    width: 94%;
+    height: 363px;
+    background-color: rgb(178, 180, 182);
+    box-shadow: #2c2d2d 0px 0px 9px 6px;
+
+}
+.benefit-3 >h3{
+    margin-bottom: 30px;
+    font-size: 31px;
+    font-family: "dancingscript";
+    color: rgb(36 129 228);
+}
+.benefit-3 >p{
+    margin-bottom: 15px;
+    font-family: "MateSC";
+    font-size: 22px;
+
+}
+.benefit3-icon{
+    width: 80px;
+    height:80px;
+}
+
+
+/*----------button----------*/
+
+.about-button{
+    width: 100%;
+    height: 155px;
+    background-color: #b5b5b5;
+    position: relative;
+ 
+
+}
+.about-button > a{
+    color:rgb(0, 0, 0) ;
+    background-color: #c9af3a;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 33px;
+    font-family: Cookie;
+    border: 10px solid #c9af3a;
+}
+
+
+
+
+
+/* ---------hover and animation-----------*/
+
+.about-benefits-icon:hover{
+    color: #a24242;
+}
+.benefit-1:hover{
+
+    transform: translateY(-4px);
+}
+.benefit-2:hover{
+
+    transform: translateY(-4px);
+}
+.benefit-3:hover{
+
+    transform: translateY(-4px);
+}
+.about-button>a:hover{
+    border: 10px solid #000000;
+    background-color: black;
+    color: #c9af3a;
+    border-radius: 12px;
+}

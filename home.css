@@ -1,0 +1,45 @@
+body{
+    background-color: #310101;
+}
+.home-image{
+   width: 100%;
+   height: 100%;
+}
+.home-image >img{
+    width:100%
+}
+
+.row-home{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #310101;
+    
+}
+.home-paragraph{
+    text-align: center;
+    color: #ffffff;
+    font-family: fangsong;
+    font-weight: bolder;
+}
+.home-plus{
+    width: 100%;
+    text-align: center;
+    height: 170px;
+    position: relative;
+    font-size: xxx-large;
+    font-family: 'Cookie';
+   
+    margin-top: 30px;
+}
+.home-plus >p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: blanchedalmond;
+}
+.home-plus>p>span{
+    color: #0088ff;
+}
